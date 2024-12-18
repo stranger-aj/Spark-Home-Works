@@ -4,8 +4,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, sum 
 
-# import warnings
-# warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # Создаем сессию
 spark = SparkSession.builder.appName("RateSourceExample").getOrCreate()
